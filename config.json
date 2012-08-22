@@ -1,0 +1,11 @@
+{
+	"host_map": [
+		"$.npr.org => npr.org",
+		"$.s.npr.org => s.npr.org",
+		"$.community.npr.org => community.npr.org",
+		"$.shop.npr.org => shop.npr.org",
+		"$.media.npr.org => media.npr.org",
+		"$.stateimpact.npr.org => stateimpact.npr.org",
+		"$.thin.npr.org => thin.npr.org"
+	]
+}
