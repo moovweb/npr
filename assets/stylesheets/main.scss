@@ -13,7 +13,8 @@
 // File for global Uranium stylings
 @import "globals/_uranium.scss";
 
-
+// Import _lib
+@import "globals/_lib.scss";
 
 // Header & Footer
 @import "sections/_header.scss";

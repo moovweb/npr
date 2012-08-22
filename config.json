@@ -1,6 +1,6 @@
 {
 	"host_map": [
-		"$.npr.org => npr.org",
+		"$.npr.org => www.npr.org",
 		"$.s.npr.org => s.npr.org",
 		"$.community.npr.org => community.npr.org",
 		"$.shop.npr.org => shop.npr.org",

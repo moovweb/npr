@@ -1,3 +1,46 @@
-header._header {
-  
+#mw_header {
+  background: $black;
+  width: 100%;
+  min-width: 360px;
+  #mw_main_banner{
+    @include background(linear-gradient(top, $gray, $black));
+    position: relative;
+    height: 60px;
+    #mw_logo{
+      position: absolute;
+      left: 5px;
+      top: 5px;
+    }
+    #mw_title{
+      width: 100%;
+      text-align: center;
+      padding: 20px;
+      display: inline-block;
+      font-size: 2.0em;
+      font-weight: bold;
+      color: $white;
+    }
+  }
+  #mw_sub_banner{
+    @include background(linear-gradient(top, #33BBFF, $blue));
+    height: 30px;
+    padding: 5px;
+    .mw_header_link{
+      @include btn2;
+      padding: 5px;
+      display: inline-block;
+    }
+    #mw_search{
+      display: inline-block;
+      .btn_go{
+        border: none;
+        @include btn2;
+        padding: 5px;
+        color: #336699;
+      }
+      #searchinput{
+        width: 90px;
+      }
+    }
+  }
 }
