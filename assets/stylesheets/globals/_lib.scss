@@ -1,21 +1,21 @@
-// //header variables
-// $black: #000000;
-// $white: #FFFFFF;
-// $blue: #3366CC;
-// $gray: #444444;
+//header variables
+$black: #000000;
+$white: #FFFFFF;
+$blue: #3366CC;
+$gray: #444444;
 
-// $grad5: linear-gradient(top, #d6d6d6 0%, #e7e7e7 100%);
+$grad5: linear-gradient(top, #d6d6d6 0%, #e7e7e7 100%);
 
-// $border3: 1px solid #aaa; // border around buttons or boxes
+$border3: 1px solid #aaa; // border around buttons or boxes
 
-// @mixin btn2 {
-//   @include background($grad5);
-//   @include box-shadow(0 1px 2px #999, inset 0 1px 0 0px #fff);
-//   border-left: $border3;
-//   border-top-right-radius: 3px;
-//   border-bottom-right-radius: 3px;
-//   color: #666;
-//   font-size: 11px;
-//   font-weight: bold;
-//   padding: 5px 10px;
-// }
+@mixin btn2 {
+  @include background($grad5);
+  @include box-shadow(0 1px 2px #999, inset 0 1px 0 0px #fff);
+  border-left: $border3;
+  border-top-right-radius: 3px;
+  border-bottom-right-radius: 3px;
+  color: #666;
+  font-size: 11px;
+  font-weight: bold;
+  padding: 5px 10px;
+}
